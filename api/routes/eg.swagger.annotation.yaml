@@ -1,0 +1,18 @@
+/**
+ * @swagger
+ * /api/orders:
+ *   post:
+ *     tags:
+ *       - Orders
+ *     description: Creates a new order
+ *     produces:
+ *       - application/json
+ *     parameters:
+ *       - quantity: puppy
+ *         product: Puppy object         
+ *         schema:
+ *           $ref: '#/definitions/Order'
+ *     responses:
+ *       200:
+ *         description: Successfully created
+ */
